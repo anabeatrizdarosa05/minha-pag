@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Pessoal</title>
+  <style>
+    /* Estilos gerais */
+    body {
+      font-family: Arial, sans-serif;
+      color #333
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background-color: #c92f96;
+      color: #d688b8;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    h1 {
+      font-family: 'Georgia', serif;
+    }
+
+    section {
+      padding: 20px;
+      margin: 10px;
+    }
+
+    /* Estilo para a seção "Sobre mim" e "Galeria" */
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .about, .gallery {
+      flex: 1;
+      margin: 10px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+    }
+
+    /* Estilos para a galeria de imagens */
+    .gallery ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 10px;
+      justify-content: space-around;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 150px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Rodapé */
+    footer {
+      font-size: 0.8em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Minha Página Pessoal</h1>
+  </header>
+
+  <!-- Seção Sobre Mim e Galeria -->
+  <div class="content">
+    <!-- Sobre Mim -->
+    <section class="about">
+      <h2>Sobre Mim</h2>
+      <p>Sou uma estudante de ADS e adoro aprender novas tecnologias e compartilhar conhecimento.</p>
+    </section>
+
+    
